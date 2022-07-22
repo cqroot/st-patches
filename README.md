@@ -1,6 +1,6 @@
 # ST Patches
 
-Patches for the suckless simple terminal (st).
+Patches for the [suckless simple terminal (st)](https://st.suckless.org/).
 
 ## Installation
 
