@@ -1,0 +1,14 @@
+--- ../st/x.c	2022-07-22 13:53:11.674976334 +0800
++++ x.c	2022-07-22 13:47:27.088302201 +0800
+@@ -709,8 +709,10 @@
+ 
+ 	if (mouseaction(e, 1))
+ 		return;
+-	if (btn == Button1)
++	if (btn == Button1) {
+ 		mousesel(e, 1);
++		clipcopy(NULL);
++    }
+ }
+ 
+ void

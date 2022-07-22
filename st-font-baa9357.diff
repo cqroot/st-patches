@@ -1,0 +1,11 @@
+--- ../st/config.def.h	2022-07-22 13:43:35.658297189 +0800
++++ config.def.h	2022-07-22 14:09:48.078331246 +0800
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "CaskaydiaCove Nerd Font:pixelsize=14:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
