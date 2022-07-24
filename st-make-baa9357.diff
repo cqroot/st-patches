@@ -1,0 +1,13 @@
+--- ../st/config.mk	2022-07-24 21:04:05.671135983 +0800
++++ ./config.mk	2022-07-24 21:04:48.124468415 +0800
+@@ -7,8 +7,8 @@
+ PREFIX = /usr/local
+ MANPREFIX = $(PREFIX)/share/man
+ 
+-X11INC = /usr/X11R6/include
+-X11LIB = /usr/X11R6/lib
++X11INC = /usr/include/X11
++X11LIB = /usr/include/X11
+ 
+ PKG_CONFIG = pkg-config
+ 
